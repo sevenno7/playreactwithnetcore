@@ -1,10 +1,21 @@
-﻿{
-  "name": "asp.net",
-  "private": true,
+{
+  "name": "playreactwithapi",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "tri <tri.hoang3011@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/sevenno7/playreactwithnetcore",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "wwwroot/lib",
+    "test",
+    "tests"
+  ],
   "dependencies": {
-    "bootstrap": "3.3.6",
-    "jquery": "2.2.0",
-    "jquery-validation": "1.14.0",
-    "jquery-validation-unobtrusive": "3.2.6"
+    "bootstrap": "^3.3.7"
   }
 }
